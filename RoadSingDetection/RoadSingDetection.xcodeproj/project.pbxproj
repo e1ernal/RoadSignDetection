@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED9DB33E26AAE36800349461 /* RoadSignsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DB33D26AAE36800349461 /* RoadSignsVC.swift */; };
+		EDEFE54326A8C5C50048D731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFE54226A8C5C50048D731 /* AppDelegate.swift */; };
+		EDEFE54526A8C5C50048D731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFE54426A8C5C50048D731 /* SceneDelegate.swift */; };
+		EDEFE54726A8C5C50048D731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFE54626A8C5C50048D731 /* ViewController.swift */; };
+		EDEFE54A26A8C5C50048D731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEFE54826A8C5C50048D731 /* Main.storyboard */; };
+		EDEFE54C26A8C5C60048D731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEFE54B26A8C5C60048D731 /* Assets.xcassets */; };
+		EDEFE54F26A8C5C60048D731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEFE54D26A8C5C60048D731 /* LaunchScreen.storyboard */; };
+		EDEFE55A26A8C5C60048D731 /* RoadSingDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFE55926A8C5C60048D731 /* RoadSingDetectionTests.swift */; };
+		EDEFE56526A8C5C60048D731 /* RoadSingDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFE56426A8C5C60048D731 /* RoadSingDetectionUITests.swift */; };
+		EDEFE58126A8D8E60048D731 /* MyObjectDetector3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EDEFE58026A8D8E60048D731 /* MyObjectDetector3.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDEFE55626A8C5C60048D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEFE53726A8C5C50048D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEFE53E26A8C5C50048D731;
+			remoteInfo = RoadSingDetection;
+		};
+		EDEFE56126A8C5C60048D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEFE53726A8C5C50048D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEFE53E26A8C5C50048D731;
+			remoteInfo = RoadSingDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED9DB33D26AAE36800349461 /* RoadSignsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadSignsVC.swift; sourceTree = "<group>"; };
+		EDEFE53F26A8C5C50048D731 /* RoadSingDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadSingDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEFE54226A8C5C50048D731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDEFE54426A8C5C50048D731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDEFE54626A8C5C50048D731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDEFE54926A8C5C50048D731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDEFE54B26A8C5C60048D731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDEFE54E26A8C5C60048D731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDEFE55026A8C5C60048D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEFE55526A8C5C60048D731 /* RoadSingDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadSingDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEFE55926A8C5C60048D731 /* RoadSingDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadSingDetectionTests.swift; sourceTree = "<group>"; };
+		EDEFE55B26A8C5C60048D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEFE56026A8C5C60048D731 /* RoadSingDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadSingDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEFE56426A8C5C60048D731 /* RoadSingDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadSingDetectionUITests.swift; sourceTree = "<group>"; };
+		EDEFE56626A8C5C60048D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEFE58026A8D8E60048D731 /* MyObjectDetector3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyObjectDetector3.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEFE53C26A8C5C50048D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEFE55226A8C5C60048D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEFE55D26A8C5C60048D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDEFE53626A8C5C50048D731 = {
+			isa = PBXGroup;
+			children = (
+				EDEFE54126A8C5C50048D731 /* RoadSingDetection */,
+				EDEFE55826A8C5C60048D731 /* RoadSingDetectionTests */,
+				EDEFE56326A8C5C60048D731 /* RoadSingDetectionUITests */,
+				EDEFE54026A8C5C50048D731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEFE54026A8C5C50048D731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFE53F26A8C5C50048D731 /* RoadSingDetection.app */,
+				EDEFE55526A8C5C60048D731 /* RoadSingDetectionTests.xctest */,
+				EDEFE56026A8C5C60048D731 /* RoadSingDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEFE54126A8C5C50048D731 /* RoadSingDetection */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFE58026A8D8E60048D731 /* MyObjectDetector3.mlmodel */,
+				EDEFE54226A8C5C50048D731 /* AppDelegate.swift */,
+				EDEFE54426A8C5C50048D731 /* SceneDelegate.swift */,
+				EDEFE54626A8C5C50048D731 /* ViewController.swift */,
+				ED9DB33D26AAE36800349461 /* RoadSignsVC.swift */,
+				EDEFE54826A8C5C50048D731 /* Main.storyboard */,
+				EDEFE54B26A8C5C60048D731 /* Assets.xcassets */,
+				EDEFE54D26A8C5C60048D731 /* LaunchScreen.storyboard */,
+				EDEFE55026A8C5C60048D731 /* Info.plist */,
+			);
+			path = RoadSingDetection;
+			sourceTree = "<group>";
+		};
+		EDEFE55826A8C5C60048D731 /* RoadSingDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFE55926A8C5C60048D731 /* RoadSingDetectionTests.swift */,
+				EDEFE55B26A8C5C60048D731 /* Info.plist */,
+			);
+			path = RoadSingDetectionTests;
+			sourceTree = "<group>";
+		};
+		EDEFE56326A8C5C60048D731 /* RoadSingDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEFE56426A8C5C60048D731 /* RoadSingDetectionUITests.swift */,
+				EDEFE56626A8C5C60048D731 /* Info.plist */,
+			);
+			path = RoadSingDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEFE53E26A8C5C50048D731 /* RoadSingDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEFE56926A8C5C60048D731 /* Build configuration list for PBXNativeTarget "RoadSingDetection" */;
+			buildPhases = (
+				EDEFE53B26A8C5C50048D731 /* Sources */,
+				EDEFE53C26A8C5C50048D731 /* Frameworks */,
+				EDEFE53D26A8C5C50048D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadSingDetection;
+			productName = RoadSingDetection;
+			productReference = EDEFE53F26A8C5C50048D731 /* RoadSingDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDEFE55426A8C5C60048D731 /* RoadSingDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEFE56C26A8C5C60048D731 /* Build configuration list for PBXNativeTarget "RoadSingDetectionTests" */;
+			buildPhases = (
+				EDEFE55126A8C5C60048D731 /* Sources */,
+				EDEFE55226A8C5C60048D731 /* Frameworks */,
+				EDEFE55326A8C5C60048D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEFE55726A8C5C60048D731 /* PBXTargetDependency */,
+			);
+			name = RoadSingDetectionTests;
+			productName = RoadSingDetectionTests;
+			productReference = EDEFE55526A8C5C60048D731 /* RoadSingDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDEFE55F26A8C5C60048D731 /* RoadSingDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEFE56F26A8C5C60048D731 /* Build configuration list for PBXNativeTarget "RoadSingDetectionUITests" */;
+			buildPhases = (
+				EDEFE55C26A8C5C60048D731 /* Sources */,
+				EDEFE55D26A8C5C60048D731 /* Frameworks */,
+				EDEFE55E26A8C5C60048D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEFE56226A8C5C60048D731 /* PBXTargetDependency */,
+			);
+			name = RoadSingDetectionUITests;
+			productName = RoadSingDetectionUITests;
+			productReference = EDEFE56026A8C5C60048D731 /* RoadSingDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEFE53726A8C5C50048D731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDEFE53E26A8C5C50048D731 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EDEFE55426A8C5C60048D731 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDEFE53E26A8C5C50048D731;
+					};
+					EDEFE55F26A8C5C60048D731 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDEFE53E26A8C5C50048D731;
+					};
+				};
+			};
+			buildConfigurationList = EDEFE53A26A8C5C50048D731 /* Build configuration list for PBXProject "RoadSingDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEFE53626A8C5C50048D731;
+			productRefGroup = EDEFE54026A8C5C50048D731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEFE53E26A8C5C50048D731 /* RoadSingDetection */,
+				EDEFE55426A8C5C60048D731 /* RoadSingDetectionTests */,
+				EDEFE55F26A8C5C60048D731 /* RoadSingDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEFE53D26A8C5C50048D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEFE54F26A8C5C60048D731 /* LaunchScreen.storyboard in Resources */,
+				EDEFE54C26A8C5C60048D731 /* Assets.xcassets in Resources */,
+				EDEFE54A26A8C5C50048D731 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEFE55326A8C5C60048D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEFE55E26A8C5C60048D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEFE53B26A8C5C50048D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEFE54726A8C5C50048D731 /* ViewController.swift in Sources */,
+				ED9DB33E26AAE36800349461 /* RoadSignsVC.swift in Sources */,
+				EDEFE54326A8C5C50048D731 /* AppDelegate.swift in Sources */,
+				EDEFE54526A8C5C50048D731 /* SceneDelegate.swift in Sources */,
+				EDEFE58126A8D8E60048D731 /* MyObjectDetector3.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEFE55126A8C5C60048D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEFE55A26A8C5C60048D731 /* RoadSingDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEFE55C26A8C5C60048D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEFE56526A8C5C60048D731 /* RoadSingDetectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDEFE55726A8C5C60048D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEFE53E26A8C5C50048D731 /* RoadSingDetection */;
+			targetProxy = EDEFE55626A8C5C60048D731 /* PBXContainerItemProxy */;
+		};
+		EDEFE56226A8C5C60048D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEFE53E26A8C5C50048D731 /* RoadSingDetection */;
+			targetProxy = EDEFE56126A8C5C60048D731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDEFE54826A8C5C50048D731 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEFE54926A8C5C50048D731 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDEFE54D26A8C5C60048D731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEFE54E26A8C5C60048D731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEFE56726A8C5C60048D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDEFE56826A8C5C60048D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEFE56A26A8C5C60048D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AB7TG5AU6;
+				INFOPLIST_FILE = RoadSingDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goodnightlemon-gmail.com.RoadSingDetection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDEFE56B26A8C5C60048D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AB7TG5AU6;
+				INFOPLIST_FILE = RoadSingDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goodnightlemon-gmail.com.RoadSingDetection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDEFE56D26A8C5C60048D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadSingDetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goodnightlemon-gmail.com.RoadSingDetectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadSingDetection.app/RoadSingDetection";
+			};
+			name = Debug;
+		};
+		EDEFE56E26A8C5C60048D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadSingDetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goodnightlemon-gmail.com.RoadSingDetectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadSingDetection.app/RoadSingDetection";
+			};
+			name = Release;
+		};
+		EDEFE57026A8C5C60048D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadSingDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goodnightlemon-gmail.com.RoadSingDetectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadSingDetection;
+			};
+			name = Debug;
+		};
+		EDEFE57126A8C5C60048D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoadSingDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goodnightlemon-gmail.com.RoadSingDetectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadSingDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEFE53A26A8C5C50048D731 /* Build configuration list for PBXProject "RoadSingDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEFE56726A8C5C60048D731 /* Debug */,
+				EDEFE56826A8C5C60048D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEFE56926A8C5C60048D731 /* Build configuration list for PBXNativeTarget "RoadSingDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEFE56A26A8C5C60048D731 /* Debug */,
+				EDEFE56B26A8C5C60048D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEFE56C26A8C5C60048D731 /* Build configuration list for PBXNativeTarget "RoadSingDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEFE56D26A8C5C60048D731 /* Debug */,
+				EDEFE56E26A8C5C60048D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEFE56F26A8C5C60048D731 /* Build configuration list for PBXNativeTarget "RoadSingDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEFE57026A8C5C60048D731 /* Debug */,
+				EDEFE57126A8C5C60048D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEFE53726A8C5C50048D731 /* Project object */;
+}
